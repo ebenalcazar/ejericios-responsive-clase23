@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .contenedor{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+  .izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px;
+    width: 50%;
+  }
+  h1{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    color: #512051;
+    margin-bottom: 15px;
+  }
+  .p-izquierda{
+    font-size: 15px;
+    font-weight: 500;
+    color: #927B91;
+    line-height: 25px;
+    letter-spacing: -0.5;
+  }
+  .derecha{
+    padding: 120px;
+    width: 50%;
+  }
+  .estrellas{
+    margin-left: 120px;
+    padding-right: 32px;
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    margin-top: 18px;
+    border-radius: 5%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #512051;
+    display: flex;
+  }
+  
+  .reviews{
+    margin-left: 120px;
+  }
+  .report{
+    margin-left: 165px;
+  }
+  .besttech{
+    margin-left: 210px;
+  }
+  .contenedor2 {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100PX;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card1{
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    border-radius: 5%;
+  }
+  .card2{
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    margin-left: 30px;
+    margin-top: 16px;
+    border-radius: 5%;
+  }
+  .card3{
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    margin-left: 30px;
+    margin-top: 32px;
+    border-radius: 5%;
+}
+  div img{
+    width: 40px;
+    border-radius: 50px;
+    margin: 40px 0 0 30px;
+    position: absolute;
+  }
+  div{
+    display: block;
+  }
+  .testimonio{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.23px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .nombre{
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 4px;
+    margin-left: 95px;
+    margin-top: 45px;
+  }
+  .estado{
+    font-size: 13px;
+    font-weight: 400;
+    color: #EE69A4;
+    margin-left: 95px;
+  }
+  
